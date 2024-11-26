@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    background-color: pink;
+    height: 100vh;
+}
+
+.main-header
+{
+    background-color: black;
+    color: antiquewhite;
+    height: 20%;
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    top: 2.65rem;
+}
+
+li:hover
+{
+    cursor: pointer;
+    color: rgb(87, 51, 6);
+    transition:0.4s;
+
+}
+
+.main-counter
+{
+    font-size: 1.5rem;
+   
+
+
+    
+}
+
+.main-counter button
+{
+    padding: 0.3rem 2.5rem;
+    background-color: transparent;
+    outline: none;
+    /* border: none; */
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+
+.main-counter button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+
+}
+
+.counter-parent
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
